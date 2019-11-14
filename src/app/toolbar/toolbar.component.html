@@ -1,0 +1,10 @@
+<mat-toolbar>
+	<mat-toolbar-row>
+		<span><img  src="./assets/book-online.jpg"  style="width:150px;"></span>
+		<a  mat-button  routerLink="/movies"  routerLinkActive="active">Movies</a>
+		<form #searchForm="ngForm" (ngSubmit)="onSubmit(searchForm.value);searchForm.reset()" >
+			<input type="sumbit" matInput value="" name="moviename" ngModel placeholder="Search for Movie" class="search">
+		
+		</form>
+	</mat-toolbar-row>
+</mat-toolbar>

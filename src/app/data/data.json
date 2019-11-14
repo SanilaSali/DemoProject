@@ -1,0 +1,87 @@
+{
+	"movies" : [
+		{
+			"name" : "Bala",
+			"language" : "Hindi",
+			"director" : "Amar Kaushik",
+			"producer" : "Dinesh Vijan",
+			"cast" : ["Ayushmann Khurana", "Bhumi Pednekar", "Yami Gautam", "Saurabh Shukla"],
+			"synopsis" : "The film tells the story of Bala (Ayushmann Khurana) a man who is balding prematurely and how he copes with the situation. The film also narrates Bala`s relationship with two women played by Yami Gautam and Bhumi Pednekar respectively.",
+			"rating": 4.2
+		},
+		{
+			"name" : "Housefull 4",
+			"language" : "Hindi",
+			"director" : "Farhad Samji",
+			"producer" : "Sajid Nadiadwala",
+			"cast" : ["Akshay Kumar", "Riteish Deshmukh", "Bobby Deol", "Kriti Sanon"],
+			"synopsis" : "When 6 lovers are parted because of conspiracy and revenge in the year 1419, the characters cross paths again in 2019. However, in the present life the 3 boys are about to marry their sisters-in-law and the pairings are in the wrong order. Destiny repeats itself when the 3 couples who are choosing their wedding destination all land up in Sitamgarh again, where it all began.",
+			"rating": 3.6
+		},
+		{
+			"name" : "Hirkani",
+			"language" : "Marathi",
+			"director" : "Prasad Oak",
+			"producer" : "Falguni Patel",
+			"cast" : ["Sonalee Kulkarni", "Ameet Khedekar"],
+			"synopsis" : "Set during the reign of Chhatrapati Shivaji Maharaj, the film depicts the story of Hira, a simple village woman. When the gates of Raigad fort shut before she can leave, Hira dares to climb down a cliff in the dead of the night to get back to her infant son.",
+			"rating": 4.4
+		},
+		{
+			"name" : "Midway",
+			"language" : "English",
+			"director" : "Roland Emmerich",
+			"producer" : "Mark Gordon",
+			"cast" : ["Ed Skrein,", "Patrick Wilson", "Luke Evans", "Woody Harelson"],
+			"synopsis" : "The story of the Battle of Midway, told by the leaders and the sailors who fought it.",
+			"rating": 4.2
+		},
+		{
+			"name" : "Doctor Sleep",
+			"language" : "English",
+			"director" : "Mike Flanagan",
+			"producer" : "Trevor Macy",
+			"cast" : ["Ewan McGregor,", "Rebecca Ferguson", "Joselin Donahue", "Jacob Tremblay"],
+			"synopsis" : "Based on Stephen King`s best-selling novel and a sequel to Stanley Kubrick`s The Shining (1980), Doctor Sleep focuses on a grown-up Danny Torrance. Still traumatized by his childhood experiences at the Overlook Hotel, Danny finds a new purpose in life after he meets Abra, a young girl who shares his psychic powers.",
+			"rating": 4.1
+		},
+		{
+			"name" : "Bypass Road",
+			"language" : "Hindi",
+			"director" : "Naman Nitin Mukesh",
+			"producer" : "Madan Paliwal",
+			"cast" : ["Neil Nitin Mukesk", "Adah Sharma", "Sudhanshu Pandey", "Gul Panag"],
+			"synopsis" : "Bypass Road is a coming of age thriller of a paraplegic who is the victim of a brutal accident but is also a prime suspect in a murder. Being trapped in his own home, he also has to defend himself against the killer. Will he overcome his weakness and fight to survive? Who is the actual killer?",
+			"rating": 3.6
+		},
+		{
+			"name" : "Last Christmas",
+			"language" : "English",
+			"director" : "Paul Feig",
+			"producer" : "Emma Thompson",
+			"cast" : ["Emila Clarke,", "Henry Golding", "Emma Thompson", "Michelle Yeoh"],
+			"synopsis" : "Kate (Emilia Clarke) harrumphs around London, a bundle of bad decisions accompanied by the jangle of bells on her shoes, another irritating consequence from her job as an elf in a year-round Christmas shop. Tom (Henry Golding) seems too good to be true when he walks into her life and starts to see through so many of Kate`s barriers. As London transforms into the most wonderful time of the year, nothing should work for these two.",
+			"rating": 4.1
+		},
+		{
+			"name" : "War",
+			"language" : "Hindi",
+			"director" : "Siddharth Anand",
+			"producer" : "Aditya Chopra",
+			"cast" : ["Hrithik Roshan,", "Tiger Shroff", "Vaani Kapoor", "Ashutosh Rana"],
+			"synopsis" : "War is a high-intensity Bollywood action drama which stars Hrithik Roshan, Tiger Shroff, Vaani Kapoor, among other stars. Directed by Siddharth Anand, War movie is about a special agent Kabir (Hrithik Roshan) who has gone rogue and his student, Khalid (Tiger Shroff) is entrusted to take him down. Vaani Kapoor plays a pivotal role in this epic battle of teacher vs student. Will Khalid be able to stop Kabir? What made Kabir go rogue? Find out in War, the latest action movie hitting theatres in October 2019.",
+			"rating": 4.2
+		}
+	],
+	"showLocations" : [
+		{
+			"city"	:"Mumbai",
+			"places" :["Cinepolis: Magnet Mall, Bhandup (W)","PVR: Nirmal Lifestyle, Mulund (W)","Carnival: R Mall Mulund","Carnival: Huma, Kanjurmarg"]
+	   	},
+		{
+			"city"	:"Chennai",
+			"places" :["AGS Cinemas OMR: Navlur","INOX National: Arcot Road","INOX: Chennai Citi Centre, Dr. RK Salai","PVR: Grand Galada, Pallavaram"]
+	  	}
+	]
+	
+}

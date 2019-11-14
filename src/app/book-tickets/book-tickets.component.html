@@ -1,0 +1,68 @@
+ <div>
+			<img src="./assets/{{movieName}}banner.png" alt="Movie1" style="width:100%;">
+		</div>
+ <div class="form-content">
+ <div class="form-header">
+    <h4 class="form-title">Booking Details</h4>
+ <div>
+	<div class="formbody">
+		<form #form="ngForm" (ngSubmit)="onSubmit(form)" ngNativeValidate class="pop-frm">
+			<div class="form-group row">
+				<label for="city">City*</label>
+					<div>
+						<select name ="city"  class="form-control custom-select" required [(ngModel)]="formBooking.city" (change)="onCityChange($event)">
+							<option *ngFor="let city of cities" [ngValue]="city">{{city}}
+						</select>
+					</div>
+			</div>
+			<div class="form-group row">
+				<label for="showLocation">Location*</label>
+					<div>
+						<select name ="showLocation"  class="form-control custom-select" required [(ngModel)]="formBooking.showLocation">
+							<option *ngFor="let location of showlocation" [ngValue]="location"> {{location}}
+						</select>
+					</div>
+			</div> 
+			<div class="form-group row"  >
+				<label for="bookingDate" class="col-6 col-form-label"> Date</label>
+					<div>
+					 <input name="bookingDate" required placeholder="dd-MMM-YYYY" class="form-control" ngbDatepicker (click)="datePicker.toggle()" 
+					  #datePicker="ngbDatepicker" [(ngModel)]="model" #bookingDate="ngModel" dateFormat="dd-MMM-yyyy" >
+					 </div>
+			</div>
+			<div class="form-group row">
+				<label for="timing">Show Time*</label>
+					<div>
+						<select name ="location"  class="form-control custom-select" required [(ngModel)]="formBooking.timing">
+							<option *ngFor="let timing of showTimimgs" [ngValue]="timing">{{timing}}
+						</select>
+					</div>
+			</div>
+			<div class="form-group row">
+				<label for="type">Ticket Type*</label>
+					<div>
+						<select name ="type"  class="form-control custom-select" required [(ngModel)]="formBooking.ticketType">
+							<option *ngFor="let ticketType of ticketTypes" [ngValue]="ticketType">{{ticketType}}
+						</select>
+					</div>
+			</div>
+			<div class="form-group row">
+				<label for="ticketCount" >Ticket Count*</label>
+					<div class="col-11">
+						<input type="text" class="form-control" name="ticketCount" [(ngModel)]="formBooking.ticketCount" required onkeypress="preventNonNumericalInput(event)"/>
+					</div>
+			</div>
+			<div id="error-container1"  [ngClass]="(isInvalid) ? 'is_error' :''" >{{errors}}</div>
+			<div class="row">
+				<div class="col-3">
+				   
+						<button type="submit" class="btn btn-space btn-primary">Proceed to Pay</button>
+				  
+						<button type="button" class="btn btn-space" (click)="cancelForm()">Cancel</button>
+					
+				</div>
+				
+			</div>
+		  </form>
+		<div>
+	<div>

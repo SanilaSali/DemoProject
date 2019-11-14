@@ -1,0 +1,12 @@
+<div class="confirm">
+<h2  mat-dialog-title align="center">Confirmation</h2>
+<mat-dialog-content>{{data.message}}</mat-dialog-content>
+<mat-dialog-actions>
+<button  mat-raised-button (click)="proceed()">Ok</button>
+<button  mat-raised-button (click)="closeDialog()">Cancel</button>
+</mat-dialog-actions>
+<mat-progress-spinner *ngIf ="activeSpinner" [mode]="determinate" valu="1000000000000000000000000" >
+    </mat-progress-spinner>
+
+<div>
+

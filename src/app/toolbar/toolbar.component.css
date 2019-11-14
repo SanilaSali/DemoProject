@@ -1,0 +1,24 @@
+mat-toolbar-row{
+	background-color : #007399;
+}
+
+a{
+	color: white;
+}
+
+.search{
+	height: 35px;
+	width: 400px;
+	margin-bottom :2px;
+	margin-left: 500px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.mat-search{
+	
+	margin-top:30px;
+	width: 500px;
+	height:40px;
+	background-color: white;
+}

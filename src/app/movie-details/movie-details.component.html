@@ -1,0 +1,20 @@
+<div class ="container" style="margin-top: 20px;">
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="./assets/{{movieName}}.png" alt="Movie1" style="width:100%;">
+		</div>
+		<div class="col-sm-9 offset-sm-2" >
+			<div class="details"> <span> Director </span> : {{ movie.director}} </div>
+			<div class="details"> <span> Producer </span> : {{ movie.producer}} </div>
+			<div class="details"> <span> Cast </span> : 
+				<ul style="list-style-type:none;margin-top:-20px;">
+					<li *ngFor="let cast of movie.cast">{{cast}}
+					</li>
+				</ul>
+			</div>
+			<div class="details"> <span> Synopsis </span> : {{ movie.synopsis}} </div>
+			<div class="details"> <span> Rating </span> : {{ movie.rating}} </div>
+			<div> <button type="button" class="btn btn-primary" (click)="bookmyTickets();"> Book Tickets </button> </div>
+		</div>
+	</div>
+</div>
